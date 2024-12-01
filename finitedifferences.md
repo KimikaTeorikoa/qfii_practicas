@@ -57,3 +57,119 @@ podemos escribir que para una posición $i$,
 ```{math}
 \psi''(x_i) = \frac{\psi(x_{i+1}) + \psi(x_{i-1}) - 2\psi(x_i)}{\Delta x^2}
 ```
+
+Usando esta expresión para la segunda derivada, podemos escribir la 
+forma matricial del operador que, para un vector 
+$\boldsymbol{\psi}=\{\psi_1, \psi_2, \psi_3,..., \psi_n\}$
+nos permitirá obtener exactamente esta expresión para la segunda
+derivada
+```{math}
+\frac{-\hbar^2}{2m}
+\frac{1}{\Delta x^2 }
+\begin{bmatrix}
+-2 & 1&  0  & 0  &\cdots &\cdots & \cdots & \cdots & 0\\
+1  & -2  & 1  & 0  & &  &  & & 0\\
+0  & 1  &  -2 & 1 &  &  &  & & 0\\
+\vdots & \vdots & \vdots  & & & &  & & \vdots\\
+0  &   &   &  & -2 &1 & 0 & \cdots & 0\\
+0  &   &    &  &1 & -2  & 1 &\cdots  & 0\\
+0  &   &    &  &0 & 1 & -2 & \cdots & 0\\
+\vdots  &  &  &   & &  &  & & \vdots\\
+0  & 0  & 0 & \cdots  & & & &  1 & -2 \\
+\end{bmatrix}
+\begin{bmatrix}
+\psi_1\\
+\psi_2\\
+\psi_3\\
+\vdots\\
+\psi_{n-1}\\
+\psi_n \\
+\psi_{n+1} \\
+\vdots\\
+\psi_L
+\end{bmatrix}= 
+E
+\begin{bmatrix}
+\psi_1\\
+\psi_2\\
+\psi_3\\
+\vdots\\
+\psi_{n-1}\\
+\psi_n \\
+\psi_{n+1} \\
+\vdots\\
+\psi_L
+\end{bmatrix}
+```
+
+Hasta ahora sólo nos hemos ocupado del término de energía cinética del
+hamiltoniano. En el caso de que el sistema que nos concierna también
+esté sometido a un potencial externo, habrá que añadir la correspondiente
+versión discretizada del operador energía potencial
+```{math}
+\frac{-\hbar^2}{2m}
+\frac{1}{\Delta x^2 }
+\begin{bmatrix}
+-2 & 1&  0  & 0  &\cdots &\cdots & \cdots & \cdots & 0\\
+1  & -2  & 1  & 0  & &  &  & & 0\\
+0  & 1  &  -2 & 1 &  &  &  & & 0\\
+\vdots & \vdots & \vdots  & & & &  & & \vdots\\
+0  &   &   &  & -2 &1 & 0 & \cdots & 0\\
+0  &   &    &  &1 & -2  & 1 &\cdots  & 0\\
+0  &   &    &  &0 & 1 & -2 & \cdots & 0\\
+\vdots  &  &  &   & &  &  & & \vdots\\
+0  & 0  & 0 & \cdots  & & & &  1 & -2 \\
+\end{bmatrix}
+\begin{bmatrix}
+\psi_1\\
+\psi_2\\
+\psi_3\\
+\vdots\\
+\psi_{n-1}\\
+\psi_n \\
+\psi_{n+1} \\
+\vdots\\
+\psi_L
+\end{bmatrix}
++  \\
+\begin{bmatrix}
+V_1 & 0 &  0  & 0  &\cdots &\cdots & \cdots & \cdots & 0\\
+0  & V_2  & 0 & 0  & &  &  & & 0\\
+0  & 0 &  V_3 & 0 &  &  &  & & 0\\
+\vdots & \vdots & \vdots  & & & &  & & \vdots\\
+0  &   &   &  & V_{n-1} & 0 & 0 & \cdots & 0\\
+0  &   &    &  & 0 & V_n & 0 &\cdots  & 0\\
+0  &   &    &  &0 & 0 & V_{n+1} & \cdots & 0\\
+\vdots  &  &  &   & &  &  & & \vdots\\
+0  & 0  & 0 & \cdots  & & & & 0 & V_L \\
+\end{bmatrix}
+\begin{bmatrix}
+\psi_1\\
+\psi_2\\
+\psi_3\\
+\vdots\\
+\psi_{n-1}\\
+\psi_n \\
+\psi_{n+1} \\
+\vdots\\
+\psi_L
+\end{bmatrix}= 
+E
+\begin{bmatrix}
+\psi_1\\
+\psi_2\\
+\psi_3\\
+\vdots\\
+\psi_{n-1}\\
+\psi_n \\
+\psi_{n+1} \\
+\vdots\\
+\psi_L
+\end{bmatrix}
+```
+
+Las soluciones del hamiltoniano serán las funciones propias de 
+esta matriz y sus autovalores serán las energías asociadas a
+las funciones propias. En lugar de resolver nosotros mismos
+este problema, en estas prácticas dejaremos que el ordenador
+haga este trabajo por nosotros.
