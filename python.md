@@ -24,24 +24,27 @@ comodidad.
 :width: 220px
 :align: left
 ```
-Linux es el sistema operativo que usan el 94% de los supercomputadores
- del mundo, la mayor parte de los servidores de internet, la mayor parte del 
- comercio financiero y un billón de aparatos que usan Android.
-Este sistema operativo fue creado por Linus Torvalds, un estudiante de Helsinki.
 
 ```{image} https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg
 :alt: tux
 :width: 220px
 :align: right
 ```
-
+Linux es el sistema operativo que usan el 94% de los supercomputadores
+ del mundo, la mayor parte de los servidores de internet, la mayor parte del 
+ comercio financiero y un billón de aparatos que usan Android.
+Este sistema operativo fue creado por 
+[Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds), un estudiante
+ de Helsinki.
 En 1991, Torvalds arranca un proyecto que consisten en escribir el núcleo 
-(*kernel*) de un sistema operativo. Llama al producto Linux kernel. 
-En 1992, GNU un proyecto de la Fundación para el Software Libre, licencia Linux
- usando la licencia pública general (GPL), que facilita la formación en todo 
- el mundo de una comunidad de desarrolladores. 
-A mediados de los 90 diferentes desarrolladores crean “distribuciones” de Linux.
-Linux toma mucho prestado del sistema operativo Unix, pero se concibió como OS 
+(*kernel*) de un sistema operativo. Llama al producto 
+[Linux kernel](https://en.wikipedia.org/wiki/Linux_kernel). 
+En 1992, [GNU](https://en.wikipedia.org/wiki/GNU_Project), un proyecto de la
+ Fundación para el Software Libre, licencia Linux usando la licencia pública 
+ general (GPL), que facilita la formación en todo el mundo de una comunidad 
+ de desarrolladores. A mediados de los 90 diferentes desarrolladores crean
+  “distribuciones” de Linux. 
+  Linux toma mucho prestado del sistema operativo Unix, pero se concibió como OS 
 de código abierto y gratuito.
 
 ## La terminal
