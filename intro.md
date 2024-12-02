@@ -13,7 +13,7 @@ title: Química Física II - Prácticas de Ordenador
 :columns: 4 
 :class: sd-width-25
 ```{image} images/logotipo_upv_ehu.jpg
-:width: 150px
+:width: 220px
 :align: center
 ```
 :::
