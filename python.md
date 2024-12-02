@@ -10,9 +10,39 @@ kernelspec:
 ---
 # Introducción a la programación en Python 
 En la primera parte de estas prácticas usaremos el lenguaje de programación
-Python. Para ello, nos valdremos de un entorno muy sencillo, los *Python
+[Python](https://www.python.org/). Para ello, nos valdremos de un entorno muy sencillo, los *Python
 Notebooks*, que nos permiten programar en línea en entornos colaborativos
-como [Google Colab](https://colab.research.google.com/).
+como [Google Colab](https://colab.research.google.com/). Pero antes de centrarnos
+en ellos, debemos introducir acaso brevemente el entorno de trabajo del 
+sistema operativo Linux, en el que debemos de ser capaces de manejarnos con 
+comodidad. 
+
+## Trabajando con el sistema operativo Linux
+```{image} https://upload.wikimedia.org/wikipedia/commons/6/69/Linus_Torvalds.jpeg
+:alt: linus
+:class: bg-primary mb-1
+:width: 220px
+:align: left
+```
+Linux es el sistema operativo que usan el 94% de los supercomputadores
+ del mundo, la mayor parte de los servidores de internet, la mayor parte del 
+ comercio financiero y un billón de aparatos que usan Android.
+Este sistema operativo fue creado por Linus Torvalds, un estudiante de Helsinki.
+
+```{image} https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg
+:alt: tux
+:width: 220px
+:align: right
+```
+
+En 1991, Torvalds arranca un proyecto que consisten en escribir el núcleo 
+(*kernel*) de un sistema operativo. Llama al producto Linux kernel. 
+En 1992, GNU un proyecto de la Fundación para el Software Libre, licencia Linux
+ usando la licencia pública general (GPL), que facilita la formación en todo 
+ el mundo de una comunidad de desarrolladores. 
+A mediados de los 90 diferentes desarrolladores crean “distribuciones” de Linux.
+Linux toma mucho prestado del sistema operativo Unix, pero se concibió como OS 
+de código abierto y gratuito.
 
 ## La terminal
 Para usar el lenguaje de programación Python, tenemos una serie de opciones.
@@ -22,6 +52,8 @@ su aspecto es similar al de la figura que mostramos a continuación.
 
 ![terminal](https://upload.wikimedia.org/wikipedia/commons/2/29/Linux_command-line._Bash._GNOME_Terminal._screenshot.png)
 
+Hay varios tipos de “shell”, pero nosotros nos centraremos en la más habitual, 
+la Bourne Again Shell.
 Es importante conocer unos cuantos comandos de para navegar por nuestro sistema
 operativo, listar el contenido de un directorio o copiar o eliminar archivos.
 A continuación mostramos algunos de ellos:
@@ -51,7 +83,11 @@ Todos estos comandos son extremadamente útiles para que nos podamos mover
 en nuestro **filesystem**, un árbol de directorios y archivos con un aspecto
 como el del diagrama que mostramos a continuación, 
 
-![filesystem](https://raw.githubusercontent.com/swcarpentry/shell-novice/refs/heads/main/episodes/fig/filesystem.svg)
+```{image} https://raw.githubusercontent.com/swcarpentry/shell-novice/refs/heads/main/episodes/fig/filesystem.svg
+:alt: filesystem 
+:width: 400px
+:align: center 
+```
 
 ## Python como calculadora
 Python es tanto un lenguaje de programación como un lenguaje de *scripting*.

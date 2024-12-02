@@ -21,7 +21,7 @@ title: Química Física II - Prácticas de Ordenador
 
 # Bienvenida
 Las prácticas computacionales de la asigantura de 
-Química Física II sirven como complemento a la introducción a
+**Química Física II** sirven como complemento a la introducción a
 la Mecánica Cuántica que hemos cubierto en las clases magistrales
 del primer cuatrimestre. En estas prácticas aprenderemos a utilizar
 el lenguaje de programación **Python** para explorar algunos de 
