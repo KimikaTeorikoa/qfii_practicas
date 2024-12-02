@@ -56,7 +56,7 @@ su aspecto es similar al de la figura que mostramos a continuación.
 ![terminal](https://upload.wikimedia.org/wikipedia/commons/2/29/Linux_command-line._Bash._GNOME_Terminal._screenshot.png)
 
 Hay varios tipos de “shell”, pero nosotros nos centraremos en la más habitual, 
-la Bourne Again Shell.
+llamada Bash o [Bourne Again Shell](https://en.wikipedia.org/wiki/Bash_(Unix_shell)).
 Es importante conocer unos cuantos comandos de para navegar por nuestro sistema
 operativo, listar el contenido de un directorio o copiar o eliminar archivos.
 A continuación mostramos algunos de ellos:
@@ -93,8 +93,9 @@ como el del diagrama que mostramos a continuación,
 ```
 
 ## Python como calculadora
-Python es tanto un lenguaje de programación como un lenguaje de *scripting*.
-Al contrario de muchos otros lenguajes de programación, para ejecutar una
+[Python](https://www.python.org/) es tanto un lenguaje de programación como un
+ lenguaje de *scripting*. Al contrario de muchos otros lenguajes de programación,
+  para ejecutar una
 serie de directivas, tan sólo tenemos que escribirlas en un intérprete de Python.
 Por ejemplo podemos usar Python para remplazar nuestra calculadora
 ```{code-cell} python
@@ -111,7 +112,7 @@ Este programa (llamado `hola_mundo.py`) podría ser tan`sencillo como el siguien
 # Our first Python program
 print ("¡Hola mundo!")
 ```
-En la terminal, luego tendríamos que escribir lo siguiente:
+En nuestra terminal, luego tendríamos que escribir lo siguiente:
 ```bash
 foo@bar:~$ python hola_mundo.py
 ```
@@ -126,14 +127,16 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
 Finalmente, podríamos usar, como haremos en estas 
-prácticas, un Jupyter Notebook. Los notebooks son 
+prácticas, un *Jupyter Notebook*. Los notebooks son 
 interfaces gráficas a IPython que permiten combinar
 celdas de código y de texto.
 
 ![jupyter](https://jupyter-notebook.readthedocs.io/en/latest/_images/notebook-running-code.png)
 
-Python es un lenguaje de programación enormemente potente, que 
-maximiza la legibilidad del código, por lo que es ideal para introducirse
-en el mundo de la programación.
+Python es un lenguaje de programación enormemente potente, con el que
+podemos escribir programas de ordenador, hacer análisis de datos interactivo,
+construir páginas web o controlar nuestro sistema operativo. 
+Dado su gran potencial y su énfasis en que el código sea legible, Python 
+es ideal para introducirse en el mundo de la programación.
 
 ![python-flying](https://imgs.xkcd.com/comics/python.png)
