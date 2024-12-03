@@ -4,7 +4,8 @@
 format: jb-book
 root: intro
 chapters:
-- file: python 
-- file: finitedifferences
-- file: finitepython 
-- file: finiteboxbond 
+- file: content/python 
+- file: content/finitedifferences
+- file: content/finitepython 
+- file: content/finitewellho
+- file: content/finitebond
