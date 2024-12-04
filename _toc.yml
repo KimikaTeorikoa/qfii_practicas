@@ -4,8 +4,8 @@
 format: jb-book
 root: intro
 parts:
- - caption: Modelos sencillos con Python
-  chapters:
+  - caption: Modelos sencillos con Python
+    chapters:
     - file: content/python 
     - file: content/finitedifferences
     - file: content/finitepython 
