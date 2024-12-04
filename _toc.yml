@@ -3,10 +3,14 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: content/python 
-- file: content/finitedifferences
-- file: content/finitepython 
-- file: content/finitewellho
-- file: content/finitebond
-- file: content/questionaire
+parts:
+ caption: Modelos sencillos con Python
+ chapters:
+  - file: content/python 
+  - file: content/finitedifferences
+  - file: content/finitepython 
+  - file: content/finitewellho
+  - file: content/finitebond
+  -caption: Cuestionario
+  chapters:
+  - file: content/questionaire
