@@ -23,6 +23,6 @@ kernelspec:
   * Haz una figura que muestre la convergencia de la energía con el tamaño de la base. 
 * Moléculas
   * Calcula la superficie de energía potencial e identifica la distancia de enlace. ¿Qué valor has encontrado?
-  *Visualiza todos los orbitales moleculares del CO e intenta identificar qué orbitales atómicos los componen. ¿Qué nos dicen el orbital HOMO y LUMO acerca de la reactividad del CO?
-  *Calcula el espectro infrarrojo del CO2, visualiza los modos de vibración. ¿Cuántos modos has encontrado?
-  *Calcula la superficie de energía potencial para el dicloruro, diyoduro y dibromuro de etano, y describe los resultados obtenidos
+  * Visualiza todos los orbitales moleculares del CO e intenta identificar qué orbitales atómicos los componen. ¿Qué nos dicen el orbital HOMO y LUMO acerca de la reactividad del CO?
+  * Calcula el espectro infrarrojo del CO2, visualiza los modos de vibración. ¿Cuántos modos has encontrado?
+  * Calcula la superficie de energía potencial para el dicloruro, diyoduro y dibromuro de etano, y describe los resultados obtenidos
