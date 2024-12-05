@@ -11,6 +11,7 @@ parts:
     - file: content/finitepython 
     - file: content/finitewellho
     - file: content/finitebond
+  - caption: Gaussview
   - caption: Cuestionario
     chapters:
     - file: content/questionaire
